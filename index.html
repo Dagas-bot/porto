@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portofolio Saya</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Portofolio Saya</h1>
+            </div>
+            <ul>
+                <li><a href="#about">Tentang Saya</a></li>
+                <li><a href="#projects">Proyek</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>Tentang Saya</h2>
+            <p>Halo, saya adalah seorang pengembang web yang bersemangat untuk belajar dan berkembang. Saya memiliki keterampilan dalam HTML, CSS, JavaScript, dan React.</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Proyek-Proyek Saya</h2>
+            <div class="projects">
+                <div class="project-card">
+                    <h3>Proyek 1</h3>
+                    <p>Deskripsi proyek 1.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Proyek 2</h3>
+                    <p>Deskripsi proyek 2.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Proyek 3</h3>
+                    <p>Deskripsi proyek 3.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Kontak Saya</h2>
+            <form id="contact-form">
+                <input type="text" id="name" placeholder="Nama Anda" required>
+                <input type="email" id="email" placeholder="Email Anda" required>
+                <textarea id="message" placeholder="Pesan Anda" required></textarea>
+                <button type="submit">Kirim Pesan</button>
+            </form>
+            <p id="form-message"></p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Portofolio Saya</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
